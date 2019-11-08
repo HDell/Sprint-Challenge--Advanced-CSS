@@ -1,1 +1,24 @@
 // Navigation code here
+.page-nav {
+  text-align: center;
+  h1 {
+    padding-top: 0.5%;
+    @media @phone {
+      padding-top: 2.5%;
+    }
+  }
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% auto 0 auto;
+    width: 25%;
+    .small-text-style();
+    @media @phone {
+      width: 75%;
+    }
+    a {
+      margin-bottom: 1%;
+    }
+  }
+  background-color: #F6F6F6;
+}
